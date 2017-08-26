@@ -13,5 +13,11 @@ public class CalculadoraTest {
 		Calculadora calculadora = new Calculadora();
 		assertEquals(5, calculadora.soma(2,3));
 	}
+	
+	@Test
+	public void SomaSemParamentros() {
+		Calculadora calculadora = new Calculadora();
+		assertEquals(0, calculadora.soma());
+	}	
 
 }
